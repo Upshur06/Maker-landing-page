@@ -39,10 +39,9 @@ p{
     justify-content: center;
     background-image: url('../assests/bg-hero-squiggle.svg');
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
+    background-position: center;
 }
-
-/* './assests/g-hero-squiggle.svg' */
 
 .banner_content h1{
     text-align: center;
@@ -56,6 +55,90 @@ p{
 .banner_content p{
     text-align: center;
     margin-bottom: 60px;
+}
+
+.main{
+    width: 100%;
+    padding: 10%;
+    box-sizing: border-box;
+}
+
+.features{
+    display: flex;
+    justify-content: space-between;
+}
+
+.features div{
+    width: 250px;
+    
+}
+
+.features div:nth-child(even){
+    margin-top: 70px;
+}
+
+.illustration{
+    background-color: #093F68;
+    border-radius: 20px;
+    max-width: 125px;
+    max-height: 135px;
+    box-sizing: border-box;
+    padding: 20px;
+    text-align: center;
+}
+
+.info{
+    width: 100%;
+    text-align: center;
+    margin: 40px;
+}
+
+.pricing{
+    display: flex;
+    margin: 40px 0;
+    justify-content: center;
+}
+
+.card{
+    background-color: grey;
+    width: 400px;
+    margin: 10px;
+    padding: 30px;
+    box-sizing: border-box;
+    position: relative;
+    border-radius: 10px;
+}
+
+.card h2{
+    font-size: 2.5em;
+}
+
+.card #icon{
+    position: absolute;
+    top: -22px;
+}
+
+.card h2 span{
+    font-weight: 100;
+    font-size: .5em;
+    opacity: .6;
+    padding-left: 5px;
+    position: relative;
+    top: -6px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.check{
+    position: absolute;
+    left: 30px;
+    margin-top: 5px;
+}
+
+li{
+    margin: 20px 0;
 }
 
 #free{
